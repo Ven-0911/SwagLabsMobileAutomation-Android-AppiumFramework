@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-24T20:06:02 IST" name="Suite" finished-at="2025-08-24T20:06:55 IST" duration-ms="52489">
+    <groups>
+    </groups>
+    <test started-at="2025-08-24T20:06:02 IST" name="End to End Framework test" finished-at="2025-08-24T20:06:55 IST" duration-ms="52489">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@3e6104fc]" started-at="2025-08-24T20:06:02 IST" name="setup" finished-at="2025-08-24T20:06:21 IST" duration-ms="18660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="preSetUp()[pri:0, instance:test.LoginTest@3e6104fc]" started-at="2025-08-24T20:06:21 IST" name="preSetUp" finished-at="2025-08-24T20:06:21 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@3e6104fc]" started-at="2025-08-24T20:06:21 IST" name="loginTest" data-provider="getLoginData" finished-at="2025-08-24T20:06:24 IST" duration-ms="3127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="preSetUp()[pri:0, instance:test.LoginTest@3e6104fc]" started-at="2025-08-24T20:06:25 IST" name="preSetUp" finished-at="2025-08-24T20:06:25 IST" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUp -->
+        <test-method signature="addProductToCartBySelect(java.util.List,java.util.List,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@3e6104fc]" started-at="2025-08-24T20:06:25 IST" name="addProductToCartBySelect" data-provider="SelectProductFromList" finished-at="2025-08-24T20:06:27 IST" depends-on-methods="test.LoginTest.loginTest" duration-ms="2396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Sauce Labs Backpack, Sauce Labs Bike Light]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Sauce Labs Backpack]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test02]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[90920]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[THANK YOU FOR YOU ORDER]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCartBySelect -->
+        <test-method is-config="true" signature="preSetUp()[pri:0, instance:test.LoginTest@3e6104fc]" started-at="2025-08-24T20:06:27 IST" name="preSetUp" finished-at="2025-08-24T20:06:28 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUp -->
+        <test-method signature="addProductToCartByDragAndDrop(java.util.List,java.util.List,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@3e6104fc]" started-at="2025-08-24T20:06:28 IST" name="addProductToCartByDragAndDrop" data-provider="SelectProductDrag" finished-at="2025-08-24T20:06:53 IST" depends-on-methods="test.LoginTest.addProductToCartBySelect" duration-ms="25440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Sauce Labs Bolt T-Shirt]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test02]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[90920]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[THANK YOU FOR YOU ORDER]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCartByDragAndDrop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@3e6104fc]" started-at="2025-08-24T20:06:53 IST" name="tearDown" finished-at="2025-08-24T20:06:55 IST" duration-ms="1513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- End to End Framework test -->
+  </suite> <!-- Suite -->
+</testng-results>
